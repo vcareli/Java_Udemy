@@ -49,11 +49,16 @@ public class main {
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(z);
+		int a;
 		String l1, l2, l3;
+		
+		a = scanner.nextInt();
+		scanner.nextLine(); // Consumir a quebra de linha pendente
 		l1 = scanner.nextLine();
 		l2 = scanner.nextLine();
 		l3 = scanner.nextLine();
 		System.out.println("Voce digitou:");
+		System.out.println(a);
 		System.out.println(l1);
 		System.out.println(l2);
 		System.out.println(l3);
