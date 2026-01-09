@@ -31,7 +31,7 @@ public class main {
 				10.2 - espaço reservado para 10 caracteres, com 2 casas decimais
 				%n - quebra de linha
 		*/
-		IO.print("Digite seu nome: ");
+		/*IO.print("Digite seu nome: ");
 		String a = scanner.next();
 		IO.print("Digite sua altura: ");
 		Double metros = scanner.nextDouble();
@@ -61,7 +61,7 @@ public class main {
 		System.out.println(a);
 		System.out.println(l1);
 		System.out.println(l2);
-		System.out.println(l3);
+		System.out.println(l3);*/
 		scanner.close();
-    }
+	}
 }
