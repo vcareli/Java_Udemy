@@ -19,7 +19,6 @@ public class program {
 		y.c = scanner.nextDouble();
 		double areaX = x.area();
 		double areaY = y.area();
-		//IO.println("Triangle Area - Heron Fomule");
 		System.out.printf("Triangle 1 Area: %.2f%n", areaX);
 		System.out.printf("Triangle 2 Area: %.2f%n", areaY);
 		IO.print("Larger Area: ");
