@@ -13,7 +13,6 @@ public class Program {
 		System.out.print("Account number: ");
 		int count = sc.nextInt();
 		System.out.print("Is there an initial deposit (y/n)? ");
-		//Client client = new Client(name_client, count);
 		char response = sc.next().charAt(0);
 		if (response == 'y') {
 			System.out.print("Enter initial deposit value: ");
